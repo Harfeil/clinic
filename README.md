@@ -15,5 +15,5 @@ Download Python:
 https://www.python.org/downloads/
 
 Miro Link:
-https://miro.com/app/board/uXjVNv9QPmY=/
+https://miro.com/app/board/uXjVNv9QPmY=/?share_link_id=511789741038
 
