@@ -1,0 +1,13 @@
+Python Commands
+
+pip install firebase_admin
+pip install djangorestframework
+pip install djangorestframework
+django-admin startproject backend
+python manage.py startapp students
+python manage.py makemigrations students
+python manage.py sqlmigrate students 0001
+python manage.py migrate
+
+React Command
+npx create-react-app frontend
