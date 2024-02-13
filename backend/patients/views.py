@@ -8,7 +8,7 @@ import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import firestore
 
-cred = credentials.Certificate(r"E:\SCC notes\clinic\backend\clinic.json.json")
+cred = credentials.Certificate(r"H:\project\clinic\clinic\backend\clinic.json.json")
 firebase_admin.initialize_app(cred)
 
 db = firestore.client()
