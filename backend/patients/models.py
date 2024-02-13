@@ -4,9 +4,9 @@ from django.db import models
 
 class Patient(models.Model):
     patientId = models.AutoField(primary_key = True)
-    FirstName = models.CharField(max_length=100)
-    LastName = models.CharField(max_length=100)
-    ContactNum = models.CharField(max_length=100)
-    Email = models.CharField(max_length=100)
-    Password = models.CharField(max_length=100)
-    Role = models.CharField(max_length=100)
+    firstName = models.CharField(max_length=100)
+    lastName = models.CharField(max_length=100)
+    contactNum = models.CharField(max_length=100)
+    email = models.CharField(max_length=100)
+    password = models.CharField(max_length=100)
+    role = models.CharField(max_length=100)
